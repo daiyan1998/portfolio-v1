@@ -1,0 +1,49 @@
+/* .home::after,
+.about::after,
+.work::after,
+.contact::after {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.home:hover::after {
+  transform: translate(55px, 0px);
+  cursor: pointer;
+}
+
+.about::after {
+  content: "Hello.";
+}
+
+.about:hover::after {
+  content: "About";
+}
+
+.work::after {
+  content: "I am";
+}
+
+.work:hover::after {
+  content: "Work";
+}
+
+.contact::after {
+  content: "Daiyan";
+}
+
+.contact:hover::after {
+  content: "Contact";
+}
+
+.home,
+.about,
+.work,
+.contact {
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.home:hover {
+  transform: translate(55px, 0px);
+  cursor: pointer;
+} */
